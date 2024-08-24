@@ -1,4 +1,3 @@
-"use client";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -10,9 +9,6 @@ Sentry.init({
   dsn: process.env.SENTRY_DSN,
   tracesSampleRate: 1.0,
 });
-
-// Optionally, create an Error Boundary component if you want to catch errors
-import { ErrorBoundary } from "@sentry/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,21 +25,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ErrorBoundary
-          fallback={<h1>An error has occurred</h1>}
-          onError={(error) => {
-            Sentry.captureException(error);
-          }}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
         >
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
-        </ErrorBoundary>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
