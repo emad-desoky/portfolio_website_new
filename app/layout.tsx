@@ -7,18 +7,17 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Emad's Portfolio",
-  description: "Modern & Minimalist Js Mastery Portfolio",
+  description: "Modern & Minimalist JS Mastery Portfolio",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {" "}
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
