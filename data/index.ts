@@ -76,62 +76,78 @@ export const projects = [
         des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
         img: "/p1.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        link: "https://github.com/emad-desoky?tab=repositories",
     },
     {
         id: 2,
-        title: "Yoom - Video Conferencing App",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-        img: "/p2.svg",
+        title: "Simple E-commerce Website",
+        des: "Discover a new level of convenience with our e-commerce platform. Shop effortlessly with intuitive navigation and secure checkout for a seamless online experience.",
+        img: "/eCommerce.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        link: "https://code-alpha-e-commerce.vercel.app/",
     },
     {
         id: 3,
-        title: "AI Image SaaS - Canva Application",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-        img: "/p3.svg",
+        title: "Social Media Platform",
+        des: "Connect and engage with ease on our dynamic social media platform. Enjoy a rich suite of features for sharing, commenting, and networking with friends and colleagues.",
+        img: "/socialMedia.svg",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/ai_saas_app",
+        link: "https://code-alpha-social-media-platform.vercel.app/",
     },
     {
         id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-        img: "/p4.svg",
+        title: "Project Tool Management website",
+        des: "Optimize your project workflows with our management tool. Enjoy intuitive task assignments, real-time collaboration, and efficient tracking.",
+        img: "/projectToolManagement.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
+        link: "https://code-alpha-project-management-tool.vercel.app/",
+    },
+    {
+        id: 5,
+        title: "Dental Website",
+        des: "Designed a modern dental website with a user-friendly interface, featuring easy appointment scheduling and information on dental services.",
+        img: "/dentalWebsite.svg",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        link: "https://code-alpha-project-management-tool.vercel.app/",
+    },
+    {
+        id: 6,
+        title: "Anime Explorer",
+        des: "Explore your favorite anime with our interactive platform. Enjoy rich content, detailed character profiles, and a vibrant community of fans.",
+        img: "/animeExplorer.svg",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        link: "https://code-alpha-project-management-tool.vercel.app/",
     },
 ];
 
 export const testimonials = [
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Collaborating with Emad was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Emad'&#NaN;s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Emad is the ideal partner.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Emad&#39;s expertise and attention to detail made a significant impact on our project. His ability to translate complex requirements into a user-friendly design was impressive. Highly recommend Emad for anyone looking to achieve top-notch results.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Working with Emad was a fantastic experience. His innovative approach and dedication to quality delivered outstanding results. Emad&#39;s ability to address challenges with creative solutions makes him a valuable asset to any project.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Emad brought a high level of skill and creativity to our project. His responsiveness and commitment to excellence were key to achieving our goals. I highly recommend Emad for anyone looking for top-tier development work.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Emad&#8217;s professionalism and technical expertise made him a standout contributor to our project. His problem-solving skills and attention to detail ensured that we achieved our objectives efficiently. Emad is an exceptional developer and a true asset to any team.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
@@ -174,13 +190,13 @@ export const workExperience = [
     {
         id: 1,
         title: "Frontend Engineer Intern",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        desc: "Completed a CodeAlpha internship as a Frontend Engineer, developing a web platform with Next.js to boost interactivity.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Mobile App Dev - JSM Tech",
+        title: "Mobile App Dev - JSM Tech (SOON)",
         desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp2.svg",
@@ -188,7 +204,7 @@ export const workExperience = [
     {
         id: 3,
         title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+        desc: "Developed a freelancing platform, from design to deployment, featuring job listings, freelancer profiles, and secure payments.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp3.svg",
     },
