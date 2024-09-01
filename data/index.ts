@@ -108,7 +108,7 @@ export const projects = [
         des: "Designed a modern dental website with a user-friendly interface, featuring easy appointment scheduling and information on dental services.",
         img: "/dentalWebsite.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://code-alpha-project-management-tool.vercel.app/",
+        link: "https://dental-website-orcin.vercel.app/",
     },
     {
         id: 6,
@@ -116,7 +116,7 @@ export const projects = [
         des: "Explore your favorite anime with our interactive platform. Enjoy rich content, detailed character profiles, and a vibrant community of fans.",
         img: "/animeExplorer.svg",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://code-alpha-project-management-tool.vercel.app/",
+        link: "https://anime-explorer-beryl.vercel.app/",
     },
 ];
 
