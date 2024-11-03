@@ -82,7 +82,7 @@ export const projects = [
         id: 2,
         title: "Digital Agency",
         des: "Tactics Digital agency website, a marketing agency that help with all digital services.",
-        img: "/tactics-digital-agency.png",
+        img: "/",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
         link: "https://tactics-digital-agency.vercel.app/",
     },
