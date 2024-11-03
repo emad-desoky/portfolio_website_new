@@ -88,6 +88,14 @@ export const projects = [
     },
     {
         id: 3,
+        title: "Enhanced Dental website-new",
+        des: "Designed a modern dental website with a user-friendly interface, featuring easy appointment scheduling and information on dental services.",
+        img: "/dental2.PNG",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        link: "https://tactics-digital-agency.vercel.app/",
+    },
+    {
+        id: 4,
         title: "Dental Website",
         des: "Designed a modern dental website with a user-friendly interface, featuring easy appointment scheduling and information on dental services.",
         img: "/dentalWebsite.svg",
@@ -95,7 +103,7 @@ export const projects = [
         link: "https://dental-website-orcin.vercel.app/",
     },
     {
-        id: 4,
+        id: 5,
         title: "Simple E-commerce Website",
         des: "Discover a new level of convenience with our e-commerce platform. Shop effortlessly with intuitive navigation and secure checkout for a seamless online experience.",
         img: "/eCommerce.svg",
@@ -103,7 +111,7 @@ export const projects = [
         link: "https://code-alpha-e-commerce.vercel.app/",
     },
     {
-        id: 5,
+        id: 6,
         title: "Social Media Platform",
         des: "Connect and engage with ease on our dynamic social media platform. Enjoy a rich suite of features for sharing, commenting, and networking with friends and colleagues.",
         img: "/socialMedia.svg",
@@ -111,7 +119,7 @@ export const projects = [
         link: "https://code-alpha-social-media-platform.vercel.app/",
     },
     {
-        id: 6,
+        id: 7,
         title: "Project Tool Management website",
         des: "Optimize your project workflows with our management tool. Enjoy intuitive task assignments, real-time collaboration, and efficient tracking.",
         img: "/projectToolManagement.svg",
@@ -120,7 +128,7 @@ export const projects = [
     },
 
     {
-        id: 7,
+        id: 8,
         title: "Anime Explorer",
         des: "Explore your favorite anime with our interactive platform. Enjoy rich content, detailed character profiles, and a vibrant community of fans.",
         img: "/animeExplorer.svg",
