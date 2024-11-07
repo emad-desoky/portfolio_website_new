@@ -92,7 +92,7 @@ export const projects = [
         des: "Designed a modern dental website with a user-friendly interface, featuring easy appointment scheduling and information on dental services.",
         img: "/dental2.PNG",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://tactics-digital-agency.vercel.app/",
+        link: "https://dental-website-new-appointment-system.vercel.app/?vercelToolbarCode=iPEFMQjtHJfnBDA",
     },
     {
         id: 4,
