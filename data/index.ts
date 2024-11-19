@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "I prioritize client collaboration, fostering open communication ",
+        title: "We prioritize client collaboration, fostering open communication ",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "I'm very flexible with time zone communications",
+        title: "We are very flexible with time zone communications",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -140,31 +140,31 @@ export const projects = [
 export const testimonials = [
     {
         quote:
-            "Collaborating with Emad was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Emad'&#NaN;s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Emad is the ideal partner.",
+            "Collaborating with All-in Digital was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. All-in Digital'&#NaN;s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, All-in Digital is the ideal partner.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Emad&#39;s expertise and attention to detail made a significant impact on our project. His ability to translate complex requirements into a user-friendly design was impressive. Highly recommend Emad for anyone looking to achieve top-notch results.",
+            "All-in Digital&#39;s expertise and attention to detail made a significant impact on our project. His ability to translate complex requirements into a user-friendly design was impressive. Highly recommend All-in Digital for anyone looking to achieve top-notch results.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Working with Emad was a fantastic experience. His innovative approach and dedication to quality delivered outstanding results. Emad&#39;s ability to address challenges with creative solutions makes him a valuable asset to any project.",
+            "Working with All-in Digital agency was a fantastic experience. His innovative approach and dedication to quality delivered outstanding results. All-in Digital&#39;s ability to address challenges with creative solutions makes him a valuable asset to any project.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Emad brought a high level of skill and creativity to our project. His responsiveness and commitment to excellence were key to achieving our goals. I highly recommend Emad for anyone looking for top-tier development work.",
+            "All-in Digital brought a high level of skill and creativity to our project. His responsiveness and commitment to excellence were key to achieving our goals. I highly recommend All-in Digital for anyone looking for top-tier development work.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
     {
         quote:
-            "Emad&#8217;s professionalism and technical expertise made him a standout contributor to our project. His problem-solving skills and attention to detail ensured that we achieved our objectives efficiently. Emad is an exceptional developer and a true asset to any team.",
+            "All-in Digital Agency&#8217;s professionalism and technical expertise made him a standout contributor to our project. His problem-solving skills and attention to detail ensured that we achieved our objectives efficiently. All-in Digital is an exceptional developer and a true asset to any team.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
     },
@@ -206,8 +206,8 @@ export const companies = [
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend Engineer Intern",
-        desc: "Completed a CodeAlpha internship as a Frontend Engineer, developing a web platform with Next.js to boost interactivity.",
+        title: "Full websites customization for your own business",
+        desc: "We have built many websites for many clients all over the worlds, we priotrize client's requirements",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
@@ -220,15 +220,15 @@ export const workExperience = [
     },
     {
         id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Developed a freelancing platform, from design to deployment, featuring job listings, freelancer profiles, and secure payments.",
+        title: "FULL Search Engine Optimization (SEO), according to the website requirements and meta tags",
+        desc: "Developed a freelancing platform, from design to deployment, featuring job listings, freelancer profiles, and secure payments. with high seo",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
-        title: "Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
+        title: "Full stack development",
+        desc: "Developed and maintained user-facing features using modern frontend technologies. Development of full stack web applications and systems.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },

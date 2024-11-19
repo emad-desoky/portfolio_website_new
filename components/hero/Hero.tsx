@@ -57,8 +57,8 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! We Are ZeroBytes, a Next.js,WordPress & Shopify Development
-            based in EGYPT.
+            Hi! We Are All-in Digital, a Next.js, Wix ,WordPress & Shopify
+            Development based in EGYPT.
           </p>
 
           <a href="#about">
